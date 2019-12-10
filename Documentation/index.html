@@ -1,0 +1,246 @@
+<!doctype html>
+      <html lang="en-us">
+        <head>
+          <meta charset="utf-8">
+            <title>BoostZone - Documentation</title>
+            <meta name="description" content="Klodovsky - YouTube Donation Platform">
+              <meta name="author" content="Klodovsky">
+                <meta name="copyright" content="Klodovsky">
+                  <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+                    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all">
+                      <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+                        <script src="assets/js/jquery.js"></script>
+                        <script src="assets/js/jquery.scrollTo.js"></script>
+                        <script src="assets/js/jquery.easing.js"></script>
+                        <script src="assets/js/highlight.pack.js"></script>
+                        <script src="assets/js/google-code-prettify/prettify.js"></script>
+                        <script>hljs.initHighlightingOnLoad();</script>
+                        <script>document.createElement('section');var duration='500',easing='swing';</script>
+                        <script src="assets/js/script.js"></script>
+                      </head>
+                      <body class="documenter-project-journey-">
+                        <div id="documenter_sidebar">
+                          <a href="#documenter_cover" id="documenter_logo">
+                            <img src="assets/images/logo.png" style="width: auto; height: 100px;" alt="">
+                            </a>
+                            <ul id="documenter_nav">
+                              <li>
+                                <a class="current" href="#documenter_cover">Start</a>
+                              </li>
+                              <li>
+                                <a href="#configuration">Product Configuration</a>
+                              </li>
+                              <li>
+                                <a href="#feature">Features of the Product</a>
+                              </li>
+                              <li>
+                                <a href="#details-app">Details of the Product</a>
+                              </li>
+                              <li>
+                                <a href="#support">Support</a>
+                              </li>
+                              <li>
+                                <a href="#changelog">Changelog</a>
+                              </li>
+                            </ul>
+                          </div>
+                          <div id="documenter_content">
+                            <section id="documenter_cover">
+                              <h1>BoostZone</h1>
+                              <h2> - Crowdfunding Platform | Developed with PHP Codeigniter</h2>
+                              <hr>
+                                <ul>
+                                  <li>Created on: 25/Jul/2019</li>
+                                  <li>Developed by: 
+                                    <a href="https://khaledbenhassen.tech/">Khaled BEN HASSEN</a>
+                                  </li>
+                                  <li>
+                                    <br/>
+                                    <br/>
+                                    <p style="width: 70%">
+                                     <b>
+									  There is more happiness in giving more than recieving </b> ,BoostZone is developed for creators to find and build meaningful relationships with their community and designed to help digital content 
+									  creators build relationships and provide their best content to their loving supporters. 
+									  With this platform, creators can now just focus on creating quality content and build momentum around their community.</p>
+
+                                      <p style="width: 70%">In this Platform, people register to support their creators for their content. 
+									  In return, creators open up their creative practice to their contributors by sharing their processes, 
+									  learning from their fields and many other rewards. 
+									  It is a platform for creators to build a community of dedicated and meaningful supporters around the work they create.</p>
+                                    </li>
+                                  </ul>
+                                </section>
+                                <section id="configuration">
+                                    <div class="page-header2">
+                                      <h1>Product Configuration</h1>
+                                      <hr class="notop">
+                                      <h3>Step One</h3>
+                                      <p>Git clone files from Github and you will see the following folders : <br>
+									  </p> <strong>
+                                      /BoostZone<br>
+                                      /Documetation<br>
+                                      /License<br></strong>
+                                       And upload the all files from <strong>"BoostZone"</strong> folder into the Live/Local server folder<br>
+                                      <br>
+                                      </p>
+                                      <h3>Step Two</h3>
+                                      <p>Create a New Database and import the <strong>boostzone-db.sql</strong> file in the phpmyadmin.</p> <strong>File Path: BoostZone/Database/boostzone-db.sql </strong><br><br></p>
+                                      <h3>Step Three</h3>
+                                      <p>Update the following Configurations<br>
+                                      <strong>Database</strong><br>
+                                      File Path: application/config/database.php<br>
+                                      'hostname' => 'localhost',<br>
+                                      'username' => 'xxxxxxxxxx',<br> 
+                                      'password' => 'xxxxxxxxxxx',<br>
+                                      'database' => 'xxxxxxxxxxxxxxxx',<br>
+                                      <br>
+                                      <strong>Google Login API</strong><br>
+                                      File Path: application/config/google.php<br>
+                                      Change Apikey<br>
+                                      Change client_id<br>
+                                      Change client_secret<br>
+                                      <br>
+                                      <strong>Razor Payment Gateway API</strong><br>
+                                      application/views/home.php<br>
+                                      <i>Line no : 290</i><br>
+                                      application/views/videos.php<br>
+                                      <i>Line no : 158</i><br>
+									  PS: This is a demo version for real payments you will need to setup your own Razorpay account .
+                                      </p>
+                                      <br>
+                                      <h3>Step Four</h3>
+                                      <p>
+                                        Use the below login credentials to access the <strong>Admin Panel</strong>,<br>
+                                        <strong>
+                                        URL: https://www.example.com/login<br>
+                                        Username: admin@admin.com<br>
+                                        Password: admin123</strong>
+                                        <br>
+                                        <br>
+										
+                                        <br>
+                                        That's it, Now enjoy the product and run your own Donation Platform.<br><br>
+										<b>If you liked this project please dont hesitate to give it a star ! </b>
+                                      </p>
+                                    </div>
+                                  </section>
+                                <section id="feature">
+                                  <div class="page-header2">
+                                    <h1>Product Features</h1>
+                                    <hr class="notop">
+                                  </div>
+                                  <ul>
+                                    <li>Creator and Donator Account Management</li>
+                                    <li>Sign up and Sign in using Google Mail ID</li>
+                                    <li>Normal Sign up and Sign in is also availble</li>
+                                    <li>Credit And Debit Card Payment</li>
+                                    <li>Donation received directly through Admin Bank Account</li>
+                                    <li>Unlimited Youtube Video Posting</li>
+                                    <li>Unlimited User Registration</li>
+                                    <li>Platform details extraction in Excel</li>
+                                    <li>Clean and Simple UI</li>
+                                    <li>Follow Creators</li>
+                                    <li>Unlimited Donation to Creators</li>
+                                    <li>And more...</li>
+                                  </ul>
+                                  <h1>Design & Development Features</h1>
+                                  <ul>
+                                    <li>Attractive UX/UI Design</li>
+                                    <li>Responsive Custom design</li>
+                                    <li>PHP, MySQL, HTML, CSS, & jQuery</li>
+                                    <li>Bootstrp 3.3.7, PHP 5.6 and latest version support</li>
+                                    <li>PHP 5.6 and latest version support</li>
+                                    <li>Subscribe Mail - For latest news and updates</li>
+                                    <li>Contact form mail</li>
+                                    <li>Razor Payment Gateway </li>
+                                    <li>And more...</li>
+                                  </ul>
+                                </section>
+                                
+                                  <section id="details-app">
+                                    <div class="page-header2">
+                                      <h1>Details of the Product</h1>
+                                      <hr class="notop">
+                                      </div>
+                                      <h3>Home Page</h3>
+                                      <p>Home is provide the details notes of how the platform works</p>
+                                      <p>New Creators Post will be showcased here and Donator can donate amount and follow the favorite creator</p>
+                                      <h3>About us</h3>
+                                      <p>A standard About page that can be customized according to your needs.</p>
+                                      <h3>Contact Page</h3>
+                                      <p>Lets users know the company address and contact details of yours. Working contact form is available for collect the user/inquries details</p>
+                                      <h3>Admin Dashboard</h3>
+                                      <p>Here you see the overview of the platform users and total amount donated. And you can Find the last five Creators and Donators</p>
+                                      <h3>Admin Creator View</h3>
+                                      <p>Here we list out the all creaors in details and Once click the Register ID/Name you will see the Profile view of the creator in details like video post, donator details, and more core features implemented.<br>
+                                      Export Options available for offline purpose.<br>
+                                      Admin can only transfer their donation amount by manually in the Version 1.0.
+                                      </p>
+                                      <h3>Admin Donator View</h3>
+                                      <p>Donator View gives the details how many people are available in the platform and their donation details. And more core functionalities availble</p>
+                                      <h3>Admin Setting</h3>
+                                      <p>Here you can change the profile details, Website Name, logo, SEO details, and payment gateway details.</p>
+                                      <br>
+                                      <h3>Login & Registeration</h3>
+                                      <p>Creator and Donator can sign-up/sign-in using their Email ID, Password or Google platform.
+                                      <br>
+                                      Once Sign-up, platform redirect to choose "Who they are?" i.e. Creator or Donator.
+                                      <br>
+                                      If they are a Donator, they will see the "Dashboard" and "Creator categories Page" to see their favorite creator/new one videos.
+                                      <br>
+                                      If they are a Creator, they will redirected to "Choose a category Page" after we take to the Dashboard Page</p>
+                                      <br>
+                                      <br>
+                                      <h3>Donator Page</h3>
+                                      <p>Donator can login and see the details of their profile, Last five Donation details and Folloing details</p>
+                                      <br>
+                                      <br>
+                                      <h3>Creator Page</h3>
+                                      <p>Creator can Post their Videos to raise fund or upcoming famous video of their creation. 
+                                      <br>
+                                      Videos start showing once they enter the details of CHannel Name, started year, First Name, Last Name, and Bank Details.
+                                      <br>
+                                      Creator's can also choose the categories of the videos. Categories are available in "My Category Page".
+                                      </p>
+                                      
+                                  </section>
+                                  <section id="support">
+                                    <div class="page-header2">
+                                      <h1>Support</h1>
+                                      <hr class="notop">
+                                      </div>
+                                      <p>If you need some help or found a bug or issue with our product and we will respond to you within 1 day.<br>
+                                      Contact me at : khaled.benhassen@polytechnicien.tn  <br>
+									  
+									  
+                                      </p>
+                                    </section>
+                                    <section id="changelog">
+                                      <div class="page-header2">
+                                        <h1>Change LOG</h1>
+                                        <hr class="notop">
+                                        </div>
+                                        <p>v1.0 (25.Jul.2019) - Initial Release</p>
+                                      </section>
+                                    </div>
+                                    <style>
+                                  		html{background-color:#ffffff;color:#383838;}
+
+                                  		::-moz-selection{background:#267dff;color:#fff;}
+                                  		::selection{background:#fbfbfb;color:#DD5D24;}
+                                  		#documenter_sidebar #documenter_logo {width: 100%;padding: 70px 0;}
+                                  		#documenter_sidebar #documenter_logo img {display: block;margin: 0 auto;}
+                                  		a{color:#267dff;outline: none !important;text-decoration: none !important;}
+                                  		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #000000;}
+                                  		#documenter_sidebar, #documenter_sidebar ul a {background-color: #fefefe;color: #ffffff;}
+                                  		#documenter_sidebar ul a {text-shadow: none;}
+                                  		#documenter_sidebar ul li:last-child {padding-bottom: 50px;}
+                                  		#documenter_sidebar ul{border-top:0px solid #267dff;}
+                                  		#documenter_sidebar ul a {border-bottom: 1px solid #fefefe;border-top: 0 none;color: #000;}
+                                  		#documenter_sidebar ul a:hover{background:#fff;color:#267dff;border-top:0 none;}
+                                  		#documenter_sidebar ul a.current{background:#fff;color:#267dff;border-top:0 none;}
+                                  		img {max-width: 100%;}
+
+                                  	</style>
+                                  </body>
+                                </html>
