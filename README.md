@@ -17,6 +17,7 @@ Update the following Configurations :
 
 ➣ Database
 File Path: application/config/database.php
+
 'hostname' => 'localhost',
 'username' => 'xxxxxxxxxx',
 'password' => 'xxxxxxxxxxx',
