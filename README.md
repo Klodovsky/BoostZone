@@ -42,9 +42,13 @@ Change client_secret
 
 
 application/views/home.php
+
 Line no : 290
+
 application/views/videos.php
+
 Line no : 158
+
 PS: This is a demo version for real payments you will need to setup your own Razorpay account .
 
 Step 4 :
@@ -52,7 +56,9 @@ Step 4 :
 Use the below login credentials to access the Admin Panel :
 
 URL: http://localhost/BoostZone/Home/login
+
 Username: admin@admin.com
+
 Password: admin123
 
 
