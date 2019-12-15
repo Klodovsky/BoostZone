@@ -1,12 +1,14 @@
 # BoostZone
 a Crowdfunding Platform | Developed with PHP Codeigniter
 
-Step 1 :
+Step 1 : 
+
 Git clone https://github.com/Klodovskyy/BoostZone.git
 
 Step 2 : 
 
 Create a New Database and import the boostzone-db.sql file in the phpmyadmin.
+
 File Path: BoostZone/Database/boostzone-db.sql
 
 Step 3 :
