@@ -21,8 +21,11 @@ Update the following Configurations :
 File Path: application/config/database.php
 
 'hostname' => 'localhost',
+
 'username' => 'xxxxxxxxxx',
+
 'password' => 'xxxxxxxxxxx',
+
 'database' => 'xxxxxxxxxxxxxxxx',
 
 ➣ Google Login API
