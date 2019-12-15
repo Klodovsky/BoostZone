@@ -33,7 +33,9 @@ File Path: application/config/database.php
 
 File Path: application/config/google.php
 Change Apikey
+
 Change client_id
+
 Change client_secret
 
 ➣ Razor Payment Gateway API
