@@ -4,7 +4,7 @@ a Crowdfunding Platform | Developed with PHP Codeigniter
 
 ## Step 1 :
 
-Change the current working directory to the location where you want the cloned directory to be made.
+Fork the BoostZone repository and clone it locally.
 
 ```bash
 Git clone https://github.com/Klodovskyy/BoostZone.git
@@ -66,9 +66,10 @@ That's it,run your own Donation Platform and help making people smile today .
 If you liked this project please don't hesitate to give it a star !
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+Pull requests are welcome.If you would like to contribute enhancements or fixes, please do the following:
+
+Please open an issue first to discuss what you would like to change and make sure to update tests as appropriate.
 
 for contact please visit https://khaledbenhassen.tech/
 
