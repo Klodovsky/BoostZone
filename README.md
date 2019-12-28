@@ -1,6 +1,9 @@
 # BoostZone
 a Crowdfunding Platform | Developed with PHP Codeigniter
 
+![home](https://user-images.githubusercontent.com/55706752/71542401-18d6f400-2934-11ea-9341-88e5c71474b6.PNG)
+
+
 
 ## Step 1 :
 
