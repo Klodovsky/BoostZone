@@ -73,7 +73,7 @@ Pull requests are welcome.If you would like to contribute enhancements or fixes,
 
 Please open an issue first to discuss what you would like to change and make sure to update tests as appropriate.
 
-for contact please visit https://khaledbenhassen.tech/
+for contact please visit http://khaledbenhassen.tech/
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
